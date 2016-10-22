@@ -51,6 +51,8 @@
 		540C53C71DB2C0D1002E0F85 /* aTemplatePageBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aTemplatePageBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		540C53CB1DB2C0D1002E0F85 /* aTemplatePageBaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aTemplatePageBaseUITests.swift; sourceTree = "<group>"; };
 		540C53CD1DB2C0D1002E0F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540C53D91DB2DB64002E0F85 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		540C53DA1DB2DB64002E0F85 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				TargetAttributes = {
 					540C53A31DB2C0D1002E0F85 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2Q6QC537X9;
 						ProvisioningStyle = Automatic;
 					};
 					540C53BB1DB2C0D1002E0F85 = {
@@ -308,6 +311,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				540C53B01DB2C0D1002E0F85 /* Base */,
+				540C53D91DB2DB64002E0F85 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -316,6 +320,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				540C53B51DB2C0D1002E0F85 /* Base */,
+				540C53DA1DB2DB64002E0F85 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -327,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -377,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -420,11 +427,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Q6QC537X9;
 				INFOPLIST_FILE = aTemplatePageBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TemplatePageBase.aTemplatePageBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -432,11 +442,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Q6QC537X9;
 				INFOPLIST_FILE = aTemplatePageBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TemplatePageBase.aTemplatePageBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -504,7 +517,7 @@
 				540C53CF1DB2C0D1002E0F85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		540C53D01DB2C0D1002E0F85 /* Build configuration list for PBXNativeTarget "aTemplatePageBase" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				540C53D21DB2C0D1002E0F85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		540C53D31DB2C0D1002E0F85 /* Build configuration list for PBXNativeTarget "aTemplatePageBaseTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				540C53D51DB2C0D1002E0F85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		540C53D61DB2C0D1002E0F85 /* Build configuration list for PBXNativeTarget "aTemplatePageBaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +544,7 @@
 				540C53D81DB2C0D1002E0F85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
